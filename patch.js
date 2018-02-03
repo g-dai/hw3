@@ -1,4 +1,3 @@
-
 function gracePatch(x, y) {
   colorMode(RGB);
   noFill();
