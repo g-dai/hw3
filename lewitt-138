@@ -1,0 +1,20 @@
+function setup() { 
+  createCanvas(400, 400);
+} 
+
+function draw() { 
+  background(255);
+	
+	noFill();
+  for (var i = 30; i < height*2; i += 30) {
+    ellipse(height/2, width/2, i, i)
+	}
+	
+	for (var j = 15; j < height*2; j += 15) {
+		arc(200, j+10, width*1.5, height, PI, 0);
+	}
+	
+	for (var j = 15; j < height*2; j += 15) {
+		arc(200, j+10, width*1.5, height, PI, 0);
+	}
+}
